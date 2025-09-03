@@ -28,17 +28,26 @@
 - [x] ThemeProvider setup and global themes
 - [x] Accessing theme in styled components
 - [x] Design system tokens (colors, spacing, typography)
-- [ ] Dark/light mode implementation
+- [x] Dark/light mode implementation
+- [x] Theme switching with useState logic
+- [x] Separate light/dark theme objects
+- [x] Base theme object with shared tokens
+- [x] Theme-specific gradients and colors
 
 ### 5. Advanced Styling Patterns
 - [ ] CSS helper functions and mixins
-- [ ] Animation and keyframes (`keyframes` from styled-components)
-- [ ] Media queries and responsive design
-- [ ] Pseudo-classes and pseudo-elements
+- [x] Animation and keyframes (`keyframes` from styled-components)
+- [x] Glassmorphism effects (backdrop-filter, transparency)
+- [x] Hover animations and transforms
+- [x] Continuous animations with keyframes
+- [x] Media queries and responsive design
+- [x] Theme breakpoints integration
+- [x] Pseudo-classes and pseudo-elements (:hover, :focus)
 
 ### 6. Global Styles & Architecture
-- [ ] createGlobalStyle for app-wide styles
-- [ ] CSS reset and normalize patterns
+- [x] createGlobalStyle for app-wide styles
+- [x] CSS reset and normalize patterns
+- [x] Component library structure
 - [ ] Component library architecture
 - [ ] File organization best practices
 
@@ -100,4 +109,7 @@
 
 ---
 
-**Current Focus:** Start with fundamentals and build a solid component library that demonstrates real-world patterns.
+## Tasks to Complete Later
+- [ ] Style the theme toggle button with styled-components
+
+**Current Focus:** Building impressive glassmorphism dashboard with all core styled-components concepts.
