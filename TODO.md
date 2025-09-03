@@ -112,4 +112,13 @@
 ## Tasks to Complete Later
 - [ ] Style the theme toggle button with styled-components
 
+## Completed Core Concepts ✅
+- Basic syntax and component creation
+- Props-based dynamic styling with transient props ($)
+- Component composition and inheritance
+- Theme system with light/dark mode toggle
+- Animations and keyframes
+- Responsive design with media queries
+- Global styles with createGlobalStyle
+
 **Current Focus:** Building impressive glassmorphism dashboard with all core styled-components concepts.
