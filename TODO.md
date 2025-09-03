@@ -3,30 +3,32 @@
 ## Core Fundamentals (Day 1 - 3 hours)
 
 ### 1. Setup & Basic Syntax
-- [ ] Install styled-components and setup
-- [ ] Basic styled component creation (`styled.div`, `styled.button`)
-- [ ] Template literals and CSS syntax
-- [ ] Replacing CSS files with styled components
+- [x] Install styled-components and setup
+- [x] Basic styled component creation (`styled.div`, `styled.button`)
+- [x] Template literals and CSS syntax
+- [x] Replacing CSS files with styled components
 
 ### 2. Props-Based Styling
-- [ ] Dynamic styling with props (`${props => props.primary ? 'blue' : 'gray'}`)
-- [ ] Boolean props and conditional styling
-- [ ] Complex prop-based logic
+- [x] Dynamic styling with props (`${props => props.primary ? 'blue' : 'gray'}`)
+- [x] Boolean props and conditional styling
+- [x] Complex prop-based logic (variant and size props)
+- [x] Transient props ($) to avoid DOM warnings
 - [ ] TypeScript props (if using TS)
 
 ### 3. Component Composition
-- [ ] Extending styled components (`styled(BaseComponent)`)
-- [ ] Component inheritance and override patterns
+- [x] Extending styled components (`styled(BaseComponent)`)
+- [x] Component inheritance and override patterns
+- [x] Named exports for multiple components from one file
 - [ ] The `as` prop for semantic flexibility
 - [ ] Composition vs inheritance patterns
 
 ## Production-Ready Patterns (Day 2 - 2 hours)
 
 ### 4. Theme System
-- [ ] ThemeProvider setup and global themes
-- [ ] Accessing theme in styled components
+- [x] ThemeProvider setup and global themes
+- [x] Accessing theme in styled components
+- [x] Design system tokens (colors, spacing, typography)
 - [ ] Dark/light mode implementation
-- [ ] Design system tokens (colors, spacing, typography)
 
 ### 5. Advanced Styling Patterns
 - [ ] CSS helper functions and mixins
